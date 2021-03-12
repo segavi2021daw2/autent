@@ -1,0 +1,97 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Modificació d' usuaris</h1>
+
+
+<form method="POST" action="modificarusuaris.php">
+
+uid: <br/>
+<input type="text" name="uid" size="50"/>
+<p>
+
+unitatorganitzativa: <br/>
+<input type="text" name="unitatorganitzativa" size="50"/>
+<p>
+
+<p>
+   
+    <label for="atr"> Selecciona l atribut a modificar:<br></label>
+    <input type="radio" name="atr" value="uidNumber" required> uidNumber<br>
+     <input type="radio" name="atr" value="gidNumber" required> gidNumber<br>
+      <input type="radio" name="atr" value="directoripersonal" required> directoripersonal<br>
+     <input type="radio" name="atr" value="shell" required> shell<br>
+       <input type="radio" name="atr" value="cn" required> cn<br>
+         <input type="radio" name="atr" value="sn" required> sn<br>
+          <input type="radio" name="atr" value="givenName" required> givenName<br>
+           <input type="radio" name="atr" value="PostalAdress" required> PostalAdress<br>
+            <input type="radio" name="atr" value="mobile" required> mobile<br>
+            <input type="radio" name="atr" value="telephoneNumber" required> telephoneNumber<br>
+             <input type="radio" name="atr" value="title" required> title<br>
+   				<input type="radio" name="atr" value="description" required> description<br>
+  </p>
+
+nou valor: <br/>
+<input type="text" name="nouvalor" size="50"/>
+
+
+<!-- 
+uidNumber: <br/>
+<input type="text" name="uidNumber" size="50"/>
+<p>
+
+gidNumber: <br/>
+<input type="text" name="gidNumber" size="50"/>
+<p>
+
+Directori personal: <br/>
+<input type="text" name="directoripersonal" size="50"/>
+<p>
+
+Shell: <br/>
+<input type="text" name="shell" size="50"/>
+<p>
+
+cn: <br/>
+<input type="text" name="cn" size="50"/>
+<p>
+
+sn: <br/>
+<input type="text" name="sn" size="50"/>
+<p>
+
+givenName: <br/>
+<input type="text" name="givenName" size="50"/>
+<p>
+
+PostalAdress: <br/>
+<input type="text" name="PostalAdress" size="50"/>
+<p>
+
+mobile: <br/>
+<input type="text" name="mobile" size="50"/>
+<p>
+
+telephoneNumber: <br/>
+<input type="text" name="telephoneNumber" size="50"/>
+<p>
+
+title: <br/>
+<input type="text" name="title" size="50"/>
+<p>
+
+description: <br/>
+<input type="text" name="description" size="50"/>
+<p>
+ -->
+<input type="submit" name="submit" value="modificar"/>
+<input type="button" value="tornar" onclick="location.href='menu.php'">
+
+</form>
+
+
+</body>
+
+</html>
